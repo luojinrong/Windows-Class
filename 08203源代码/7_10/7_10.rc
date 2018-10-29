@@ -1,0 +1,32 @@
+
+#include "resource.h"
+#include "windows.h"
+#include "7_10.h"
+
+MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "画图(&F)"
+    BEGIN
+        MENUITEM "圆形(&c)\t Ctrl+C",           IDM_CIRCLE
+        MENUITEM "矩形(&r)\t Ctrl+R",           IDM_RECTANGLE
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&x)",                    IDM_EXIT
+    END
+END
+
+MENURECT MENU DISCARDABLE 
+BEGIN
+    MENUITEM "绘制图形(&d)",                IDM_DRAWRECT
+    MENUITEM "移动图形(&m)",                IDM_MOVERECT
+    MENUITEM "放大(&i)",                    IDM_ZOOMIN
+    MENUITEM "缩小(&o)",                    IDM_ZOOMOUT
+    MENUITEM "重绘(&r)",                    IDM_REDRAW
+END
+
+
+MUNE ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "^C",           IDM_CIRCLE,             ASCII   
+    "^R",           IDM_RECTANGLE,          ASCII   
+END
+

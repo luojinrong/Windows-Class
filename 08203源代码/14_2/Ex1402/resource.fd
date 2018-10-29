@@ -1,0 +1,21 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by Ex1402.rc
+!
+      integer, parameter :: IDM_ABOUTBOX                    = 16
+      integer, parameter :: IDD_ABOUTBOX                    = 100
+      integer, parameter :: IDS_ABOUTBOX                    = 101
+      integer, parameter :: IDD_EX1402_DIALOG               = 102
+      integer, parameter :: IDP_SOCKETS_INIT_FAILED         = 103
+      integer, parameter :: IDR_MAINFRAME                   = 128
+      integer, parameter :: IDC_BUTTON_SEND                 = 1000
+      integer, parameter :: IDC_BUTTON_CLEAR                = 1001
+      integer, parameter :: IDC_EDIT_SEND                   = 1002
+      integer, parameter :: IDC_BUTTON_CLEAR_RECV           = 1003
+      integer, parameter :: IDC_EDIT_RECV                   = 1004
+      integer, parameter :: IDC_EDIT_TIP                    = 1005
+      integer, parameter :: IDC_IPADDRESS                   = 1006
+      integer, parameter :: IDC_BUTTON_CONNECT              = 1007
+      integer, parameter :: IDC_BUTTON_CLOSE                = 1008
+      integer, parameter :: IDC_BUTTON_LISTEN               = 1009
+      integer, parameter :: IDC_BUTTON_STOP                 = 1010

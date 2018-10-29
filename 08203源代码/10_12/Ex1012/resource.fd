@@ -1,0 +1,19 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by Ex1012.rc
+!
+      integer, parameter :: IDD_ABOUTBOX                    = 100
+      integer, parameter :: IDR_MAINFRAME                   = 128
+      integer, parameter :: IDR_EX1012TYPE                  = 129
+      integer, parameter :: IDD_DIALOG_SHOW                 = 130
+      integer, parameter :: IDC_BUTTON_ADD                  = 1000
+      integer, parameter :: IDC_BUTTON_SUB                  = 1001
+      integer, parameter :: IDC_BUTTON_MUL                  = 1002
+      integer, parameter :: IDC_BUTTON_DIV                  = 1003
+      integer, parameter :: IDC_EDIT1                       = 1004
+      integer, parameter :: IDC_EDIT2                       = 1005
+      integer, parameter :: IDC_SCROLLBAR1                  = 1006
+      integer, parameter :: IDC_SCROLLBAR2                  = 1007
+      integer, parameter :: IDC_EDIT3                       = 1008
+      integer, parameter :: ID_CAL_SHOW                     = 32771
+      integer, parameter :: ID_CAL_EXIT                     = 32772

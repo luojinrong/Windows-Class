@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex1013 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex1013.res" /d "_DEBUG" /d "_AFXDLL" "C:\Exam-2-9\Ex\Ex1013\Ex1013.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1013.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Exam-2-9\Ex\Ex1013\Ex1013.cpp"
+"C:\Exam-2-9\Ex\Ex1013\Ex1013Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1013.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Exam-2-9\Ex\Ex1013\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16D.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex1013.pdb" /debug /machine:I386 /out:"Debug/Ex1013.exe" /pdbtype:sept  ".\Debug\Ex1013.obj" ".\Debug\Ex1013Dlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Ex1013.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Ex1013.cpp
+Ex1013Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ex1013.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

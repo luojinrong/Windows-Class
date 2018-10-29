@@ -127,7 +127,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM  wParam, LPARAM  lParam
 			n[1] = 0;
 			TextOut(hDC, x, y, n, sizeof(n));
 			GetTextExtentPoint32(hDC, n, sizeof(n), &size);
-			x = x + (size.cx/2) + tm.tmOverhang;
+			x = x + size.cx - tm.tmPitchAndFamily;
 			Sleep(10);
 		}
 		
@@ -143,7 +143,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM  wParam, LPARAM  lParam
 			n[1] = 0;
 			TextOut(hDC, x, y, n, sizeof(n));
 			GetTextExtentPoint32(hDC, n, sizeof(n), &size);
-			x = x + (size.cx / 2) + tm.tmOverhang;
+			x = x + size.cx - tm.tmPitchAndFamily;
 			Sleep(10);
 		}
 		GetTextExtentPoint32(hDC, s2, sizeof(s2), &size);
@@ -154,11 +154,10 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM  wParam, LPARAM  lParam
 			n[1] = 0;
 			TextOut(hDC, x, y, n, sizeof(n));
 			GetTextExtentPoint32(hDC, n, sizeof(n), &size);
-			x = x + (size.cx / 2) + tm.tmOverhang;
+			x = x + size.cx - tm.tmPitchAndFamily;
 			Sleep(10);
 		}
 		DeleteObject(hf);
-
 		x = y = 0;
 		EndPaint(hwnd, &PtStr);
 		break;

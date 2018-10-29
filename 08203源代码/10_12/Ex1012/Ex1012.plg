@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex1012 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex1012.res" /d "_DEBUG" /d "_AFXDLL" "C:\Exam-2-9\Ex\Ex1012\Ex1012.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1012.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Exam-2-9\Ex\Ex1012\CalDlg.cpp"
+"C:\Exam-2-9\Ex\Ex1012\Ex1012.cpp"
+"C:\Exam-2-9\Ex\Ex1012\Ex1012Doc.cpp"
+"C:\Exam-2-9\Ex\Ex1012\Ex1012View.cpp"
+"C:\Exam-2-9\Ex\Ex1012\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1012.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Exam-2-9\Ex\Ex1012\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex1012.pdb" /debug /machine:I386 /out:"Debug/Ex1012.exe" /pdbtype:sept 
+".\Debug\CalDlg.obj"
+".\Debug\Ex1012.obj"
+".\Debug\Ex1012Doc.obj"
+".\Debug\Ex1012View.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Ex1012.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CalDlg.cpp
+Ex1012.cpp
+Ex1012Doc.cpp
+Ex1012View.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ex1012.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

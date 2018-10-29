@@ -1,0 +1,22 @@
+#include <windows.h>
+#include "7_9.h"
+
+Menu MENU DISCARDABLE					//定义菜单条.
+{
+	POPUP "文件(&F)"					//定义"文件"弹出菜单.
+	{
+		MENUITEM "显示",  IDM_SHOW		//定义"显示"菜单.
+		MENUITEM "隐藏",  IDM_HIDE		//定义"隐藏"菜单.
+		MENUITEM SEPARATOR				//定义分割条.
+		MENUITEM "退出",  IDM_EXIT		//定义"退出"菜单.
+	}
+}
+
+Show DIALOG 50,50,100,30		//定义Show对话框.
+STYLE DS_MODALFRAME|WS_POPUP|WS_CAPTION|WS_VISIBLE	//样式:细实线边框,弹出式..
+CAPTION " "						//无标题.
+FONT 12, "楷体"					//定义对话框中的文本字体类型和大小.
+{
+	CTEXT "我们一起来学习VC++",-1,13,10,80,10	//输出字符串.-1为标识,13为X坐标.
+													//10为Y坐标,80为宽度,10为高度.
+}

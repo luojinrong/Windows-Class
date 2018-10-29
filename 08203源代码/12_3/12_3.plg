@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 12_3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/12_3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\12_3\12_3View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP152.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/12_3.pdb" /debug /machine:I386 /out:"Debug/12_3.exe" /pdbtype:sept 
+.\Debug\12_3.obj
+.\Debug\12_3Doc.obj
+.\Debug\12_3View.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\wmpcdrom.obj
+.\Debug\wmpcdromcollection.obj
+.\Debug\wmpclosedcaption.obj
+.\Debug\wmpcontrols.obj
+.\Debug\wmpdvd.obj
+.\Debug\wmperror.obj
+.\Debug\wmperroritem.obj
+.\Debug\wmpmedia.obj
+.\Debug\wmpmediacollection.obj
+.\Debug\wmpnetwork.obj
+.\Debug\wmpplayer4.obj
+.\Debug\wmpplayerapplication.obj
+.\Debug\wmpplaylist.obj
+.\Debug\wmpplaylistarray.obj
+.\Debug\wmpplaylistcollection.obj
+.\Debug\wmpsettings.obj
+.\Debug\wmpstringcollection.obj
+.\Debug\12_3.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP153.tmp"
+<h3>Output Window</h3>
+Compiling...
+12_3View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+12_3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

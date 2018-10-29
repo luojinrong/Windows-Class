@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex1402 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex1402.res" /d "_DEBUG" /d "_AFXDLL" "C:\Ex1402\Ex1402\Ex1402.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1402.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Ex1402\Ex1402\ChatSocket.cpp"
+"C:\Ex1402\Ex1402\Ex1402.cpp"
+"C:\Ex1402\Ex1402\Ex1402Dlg.cpp"
+"C:\Ex1402\Ex1402\ListenSocket.cpp"
+"C:\Ex1402\Ex1402\Msg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex1402.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Ex1402\Ex1402\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex1402.pdb" /debug /machine:I386 /out:"Debug/Ex1402.exe" /pdbtype:sept 
+.\Debug\ChatSocket.obj
+.\Debug\Ex1402.obj
+.\Debug\Ex1402Dlg.obj
+.\Debug\ListenSocket.obj
+.\Debug\Msg.obj
+.\Debug\StdAfx.obj
+.\Debug\Ex1402.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatSocket.cpp
+Ex1402.cpp
+Ex1402Dlg.cpp
+ListenSocket.cpp
+Msg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ex1402.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

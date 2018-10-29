@@ -1,0 +1,28 @@
+#include <windows.h>
+#include "7_7.h"
+
+Menu MENU DISCARDABLE			//定义菜单条.
+{
+	POPUP "文件(&F)"			//定义弹出菜单.
+	{
+		MENUITEM "打开(&O)",IDM_NEW		//定义打开菜单.
+		MENUITEM "保存(&S)",IDM_SAVE	//定义保存菜单.
+		MENUITEM "另存为(&A)",IDM_SAVEAS	//定义保存为菜单.
+		MENUITEM SEPARATOR				//定义分割条.
+		MENUITEM "退出(&E)",IDM_EXIT	//定义退出菜单.
+	}
+	POPUP "计算(&S)"			//定义弹出菜单.
+	{
+		MENUITEM "计算总和(&S)",IDM_SUM		//定义计算总和菜单.
+		MENUITEM "计算方差(&D)",IDM_DEVIA	//定义计算方差菜单.
+		MENUITEM "计算均方差(&T)",IDM_STDDEVIA	//计算均方差菜单.
+	}
+	POPUP "帮助(&H)"			//定义帮助弹出菜单.
+	{
+		MENUITEM "计算总和帮助(&S)",IDM_SUMHELP		//定义计算总和帮助菜单.
+		MENUITEM "计算方差帮助(&D)",IDM_DEVIAHELP	//定义计算方差帮助菜单.
+		MENUITEM "计算均方差帮助(&T)",IDM_STDDEVIAHELP	//定义计算均方差帮助菜单.
+		MENUITEM SEPARATOR		//定义分割条.
+		MENUITEM "关于(&A)",IDM_ABOUT	//定义关于菜单.
+	}
+}

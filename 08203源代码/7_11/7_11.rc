@@ -1,0 +1,37 @@
+#include "resource.h"
+#include "7_11.h"
+MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\t Ctrl+N",           IDM_NEW
+        MENUITEM "打开(&O)\t Ctrl+O",           IDM_OPEN
+        MENUITEM "另存为(&S)\t Ctrl+S",         IDM_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "页面设置(&U)",                IDM_PAGESETUP
+        MENUITEM "打印(&P)\t Ctrl+P",           IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)\t Ctrl+X",           IDM_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "字体(&F)",                    IDM_FONT
+        MENUITEM "颜色(&C)",                    IDM_COLOR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)",                    IDM_ABOUT
+    END
+END
+
+
+MENU ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "^N",           IDM_NEW,                ASCII   
+    "^O",           IDM_OPEN,               ASCII   
+    "^S",           IDM_SAVEAS,             ASCII   
+    "^P",           IDM_PRINT,              ASCII   
+    "^X",           IDM_EXIT,               ASCII   
+END
+
+
